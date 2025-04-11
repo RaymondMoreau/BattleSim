@@ -1,0 +1,19 @@
+development steps for the simulator
+
+v1 i would like to get the frontend and backend connection down already.
+
+features:
+
+two monsters visible on screen
+monsters have health totals
+    monster health bar is visible on screen
+    monster health numbers are visible
+monsters can attack to deal x amount of damage to the other monster
+    done through buttons on left and right of screen?
+box at the bottom of the screen where text is printed, narrating the 'battle'
+
+v2 we should introduce different damages of moves and potentially stat interactions
+
+add stats to the monsters
+perform stat calculations during monster combat
+add extra moves to monsters
