@@ -1,0 +1,40 @@
+.game-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+.monster-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#monster1, #monster2 {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.attack-button {
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+.attack-button:hover {
+    background-color: #3e8e41;
+}
+
+.health-text {
+    font-size: 18px;
+    margin-top: 10px;
+}
